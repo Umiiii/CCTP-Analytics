@@ -1,0 +1,3 @@
+[submodule "solana-cctp-contracts"]
+	path = solana-cctp-contracts
+	url = https://github.com/circlefin/solana-cctp-contracts
