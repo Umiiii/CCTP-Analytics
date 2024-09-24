@@ -25,3 +25,8 @@ node_modules
 test-ledger
 .yarn/
 .yarnrc.yml
+*.map
+*.js
+*.d.ts
+*.tsbuildinfo
+*.ts
