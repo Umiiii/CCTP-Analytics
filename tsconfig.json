@@ -1,0 +1,19 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+      "moduleResolution": "nodenext",
+      "module": "nodenext",
+      "types": [ "node"],
+    },
+    "include": ["src", "tests"],
+    "typedocOptions": {
+      "entryPoints": ["./src/index.ts"],
+      "entryPointStrategy": "expand",
+      "plugin": "typedoc-plugin-markdown",
+      "excludeExternals": true,
+      "readme": "none",
+      "externalPattern": ["**/node_modules/**"],
+      "excludePrivate": true,
+      "out": "docs"
+  }
+}  
